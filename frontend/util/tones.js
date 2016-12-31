@@ -12,3 +12,9 @@ export const TONES = {
 };
 
 export const NOTE_NAMES = Object.keys(TONES);
+
+export const LOW_TONES = {} ;
+
+NOTE_NAMES.forEach ( noteName => {
+  LOW_TONES[noteName] = TONES[noteName]/2;
+});

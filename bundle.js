@@ -22719,6 +22719,12 @@
 	};
 	
 	var NOTE_NAMES = exports.NOTE_NAMES = Object.keys(TONES);
+	
+	var LOW_TONES = exports.LOW_TONES = {};
+	
+	NOTE_NAMES.forEach(function (noteName) {
+	  LOW_TONES[noteName] = TONES[noteName] / 2;
+	});
 
 /***/ },
 /* 206 */

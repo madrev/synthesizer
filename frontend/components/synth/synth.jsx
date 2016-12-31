@@ -1,6 +1,6 @@
 import React from 'react';
 import Note from '../../util/note.js';
-import { TONES, NOTE_NAMES } from '../../util/tones.js';
+import { TONES, NOTE_NAMES, LOW_TONES } from '../../util/tones.js';
 import $ from 'jquery';
 import NoteKey from './note_key';
 
