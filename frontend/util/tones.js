@@ -3,7 +3,12 @@ export const TONES = {
   's': 587.33,
   'd': 659.25,
   'f': 698.46,
-  'g': 783.99
+  'g': 783.99,
+  'h': 783.99,
+  'j': 880,
+  'k': 987.77,
+  'l': 1046.50,
+  ';': 1174.76
 };
 
 export const NOTE_NAMES = Object.keys(TONES);
